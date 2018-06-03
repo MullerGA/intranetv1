@@ -7,12 +7,12 @@
 // External libraries
 @import "bootstrap";
 // @import "font-awesome-sprockets";
-// @import "font-awesome";
+@import "font-awesome";
 
 // Import theme
 @import "vendor/template/style";
 
 // Your CSS partials
 // @import "layouts/index";
-// @import "components/index";
+@import "components/index";
 // @import "pages/index";
