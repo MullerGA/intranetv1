@@ -15,6 +15,7 @@ class TrainingsController < ApplicationController
   end
 
   def index
+      @trainings = current_user.profile.entreprise.products
   end
 
   def show
