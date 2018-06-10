@@ -71,7 +71,7 @@
 
 
                                 <% @trainings.each do |product| %>
-                                <li><a href="#"><%= product.training.name %></a></li>
+                                <li><a href=<%= training_path(product)%> ><%= product.training.name %></a></li>
 
                                 <% end %>
 

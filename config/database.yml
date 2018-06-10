@@ -24,9 +24,9 @@ default: &default
 development:
   <<: *default
   database: intranetv1_development
-  host: localhost
-  username: administrator
-  password: "azerty+1"
+  host: prince
+  user: gaetan
+  password: 'azerty+1'
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
